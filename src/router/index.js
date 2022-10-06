@@ -10,10 +10,9 @@ const routes = [
     component: UserProfile
   },
   {
-    path: '/home/:id',
+    path: '/home',
     name: 'HomePage',
-    component: HomePage,
-    props: true
+    component: HomePage
   },
   {
     path: '/:catchAll(.*)',

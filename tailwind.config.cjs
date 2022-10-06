@@ -12,10 +12,6 @@ module.exports = {
         kenaiGray: '#A8A8A8',
         kenaiGrayDark: '#181818',
         kenaiDark: '#121214'
-      },
-      fontFamily: {
-        'mukta': ['Mukta', sans-serif],
-        'opensans': ['Open Sans', sans-serif]
       }
     }
   },
