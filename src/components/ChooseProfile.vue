@@ -20,7 +20,7 @@ const textColor = ref('text-kenaiGray')
     @mouseover="textColor = 'text-kenaiWhite'"
     @mouseleave="textColor = 'text-kenaiGray'"
   >
-    <div class="h-28 w-28 rounded-full bg-purple-600"></div>
+    <div :class="props.background" class="h-28 w-28 rounded-full"></div>
     <p :class="textColor" class="text-lg">
       {{ props.name }}
     </p>

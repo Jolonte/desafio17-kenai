@@ -12,6 +12,14 @@ module.exports = {
         kenaiGray: '#A8A8A8',
         kenaiGrayDark: '#181818',
         kenaiDark: '#121214'
+      },
+      backgroundImage: {
+        cover: "url('/cover.avif')",
+        img1: "url('/alice.avif')",
+        img2: "url('/angrybirds.avif')",
+        img3: "url('/antman.avif')",
+        img4: "url('/batman.avif')",
+        img5: "url('/mogli.avif')"
       }
     }
   },
