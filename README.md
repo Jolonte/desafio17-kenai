@@ -16,7 +16,7 @@ To build this project run:
   pnpm build
 ```
 
-<!-- Deploy: https://desafio21-xbox.vercel.app/ -->
+Deploy: https://desafio17-kenai.vercel.app/
 
 ## Acknowledgements
 
