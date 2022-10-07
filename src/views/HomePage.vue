@@ -10,13 +10,13 @@ import MoovieBanner from '../components/MoovieBanner.vue'
       >
         Kenai
       </h1>
-      <i class="ri-menu-3-line ri-xl text-kenaiWhite lg:hidden"></i>
-      <div class="hidden gap-10 text-kenaiWhite lg:flex 2xl:gap-20">
-        <i class="ri-search-line ri-xl"></i>
+      <i class="ri-menu-3-line ri-lg text-kenaiWhite lg:hidden"></i>
+      <div class="items-center gap-10 text-kenaiWhite lg:flex 2xl:gap-20">
+        <i class="ri-search-line ri-lg"></i>
         <p>Início</p>
         <p>Minha lista</p>
-        <i class="ri-notification-3-line ri-xl"></i>
-        <i class="ri-user-line ri-xl"></i>
+        <i class="ri-notification-3-line ri-lg"></i>
+        <i class="ri-user-line ri-lg"></i>
       </div>
     </nav>
   </header>
@@ -97,10 +97,17 @@ import MoovieBanner from '../components/MoovieBanner.vue'
       class="flex w-full items-center justify-center py-11 lg:justify-between lg:pt-20 lg:pb-10"
     >
       <h1 class="logo hidden text-kenaiWhite lg:block">Kenai</h1>
+      <a
+        href="https://vinicius-costa-links.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-kenaiWhite hover:opacity-80"
+        >© 2022, Vinícius Neves Costa</a
+      >
       <div class="flex gap-12">
-        <i class="ri-instagram-line ri-xl text-kenaiWhite"></i>
-        <i class="ri-twitter-line ri-xl text-kenaiWhite"></i>
-        <i class="ri-facebook-line ri-xl text-kenaiWhite"></i>
+        <i class="ri-instagram-line ri-lg text-kenaiWhite"></i>
+        <i class="ri-twitter-line ri-lg text-kenaiWhite"></i>
+        <i class="ri-facebook-line ri-lg text-kenaiWhite"></i>
       </div>
     </footer>
   </main>

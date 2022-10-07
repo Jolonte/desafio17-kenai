@@ -16,6 +16,7 @@
 
 i:hover {
   cursor: pointer;
+  opacity: 80%;
 }
 
 *::-webkit-scrollbar {
