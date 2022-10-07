@@ -19,7 +19,7 @@ const sendForms = () => {
     class="fixed inset-0 m-auto flex h-screen items-center justify-center bg-neutral-900 bg-opacity-60"
   >
     <div
-      class="flex h-80 w-2/4 flex-col items-end justify-center gap-4 rounded bg-kenaiDark p-10"
+      class="flex h-full w-full flex-col items-end justify-center gap-4 rounded bg-kenaiDark p-10 lg:h-80 lg:w-2/4"
     >
       <i class="ri-close-line ri-xl text-kenaiWhite" @click="closeModal"></i>
       <form class="flex w-full flex-col items-center gap-10">
