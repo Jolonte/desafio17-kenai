@@ -26,7 +26,6 @@ function addToStorage(value) {
 function getData(itemData) {
   accounts.value.push(itemData)
   addToStorage(accounts.value)
-  // modal.value = false
   window.location.reload()
 }
 
