@@ -24,7 +24,7 @@ import MoovieBanner from '../components/MoovieBanner.vue'
     class="absolute z-10 flex w-full flex-col bg-gradient-to-t from-kenaiGrayDark via-kenaiDark px-6 pt-20 2xl:h-full"
   >
     <!-- rating -->
-    <section>
+    <section class="pt-16 lg:pt-14">
       <div
         class="h-fit w-fit rounded-tr-lg rounded-bl-lg bg-kenaiGrayDark py-1 px-2"
       >
@@ -45,16 +45,18 @@ import MoovieBanner from '../components/MoovieBanner.vue'
       </div>
     </section>
     <!-- title and subtitle -->
-    <section class="mt-4 flex flex-col gap-4">
-      <h1 class="text-4xl font-semibold text-kenaiWhite 2xl:text-5xl">
-        Batman
-      </h1>
-      <p class="text-kenaiWhite lg:w-[33.5rem] 2xl:text-xl">
-        Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra
-        nas profundezas mais sombrias de Gotham City. Com poucos aliados
-        confiáveis, o vigilante solitário se estabelece como a personificação da
-        vingança para a população.
-      </p>
+    <section class="mt-4 flex flex-col gap-8 lg:gap-14">
+      <div class="flex flex-col gap-4 lg:gap-6">
+        <h1 class="text-4xl font-semibold text-kenaiWhite 2xl:text-5xl">
+          Batman
+        </h1>
+        <p class="text-kenaiWhite lg:w-[33.5rem] 2xl:text-xl">
+          Após dois anos espreitando as ruas como Batman, Bruce Wayne se
+          encontra nas profundezas mais sombrias de Gotham City. Com poucos
+          aliados confiáveis, o vigilante solitário se estabelece como a
+          personificação da vingança para a população.
+        </p>
+      </div>
       <TheButton
         title="Assistir agora"
         bg-color="bg-kenaiYellow"

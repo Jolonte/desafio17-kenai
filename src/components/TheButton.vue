@@ -26,7 +26,7 @@ const props = defineProps({
   <button
     v-else
     :class="props.bgColor"
-    class="w-full rounded-lg from-kenaiGradient1 to-kenaiGradient2 py-3 hover:bg-gradient-to-r lg:w-72"
+    class="w-full rounded-lg py-3 hover:bg-opacity-80 lg:w-72"
   >
     <p class="font-semibold text-kenaiDark lg:text-xl 2xl:text-2xl">
       {{ props.title }}
