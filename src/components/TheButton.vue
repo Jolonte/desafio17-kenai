@@ -19,11 +19,12 @@ const props = defineProps({
   <button
     v-if="!isForWatch"
     :class="props.bgColor"
-    class="flex h-12 w-full items-center justify-center py-4 md:w-56"
+    class="flex h-12 w-full items-center justify-center py-4 hover:bg-opacity-80 md:w-56"
   >
     <p class="font-semibold text-kenaiWhite">{{ props.title }}</p>
   </button>
   <button
+    v-else
     :class="props.bgColor"
     class="w-full rounded-lg from-kenaiGradient1 to-kenaiGradient2 py-3 hover:bg-gradient-to-r lg:w-72"
   >
